@@ -1,0 +1,43 @@
+program for subtraction:
+       function without argument and without retuen type
+
+def mul():
+    a=int(input("Enter the value of a:"))
+    b=int(input("Enter the value of b:"))
+    c=a*b
+    print(c)
+sub()
+     
+       function with argument and without retuen type
+
+def mul(a,b):
+    c=a*b
+    print(c)
+    
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+sub(a,b)
+       
+       function without argument and with retuen type
+
+
+def mul():
+  
+    c=a*b
+    return c
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))    
+c=sub()
+print(c)
+
+       function with argument and with retuen type
+
+def mul(a,b):
+  
+    c=a*b
+    return c
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))    
+result=sub(a,b)
+print(result)
+
